@@ -12,6 +12,7 @@ body{
     background-image: linear-gradient(#2D3C4C, #8E9CA3, #C0C1C1);
     background-repeat: no-repeat;
     height: 100vh;
+    background-attachment: fixed;
    
     
 
