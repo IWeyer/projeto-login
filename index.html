@@ -7,9 +7,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
      rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mediaqueries.css">
 </head>
 <body>
-     <main>
+     <main id="login">
         <section id="background">
 
         </section>
@@ -17,13 +18,19 @@
             <h1>Login</h1>
             <p>Bem vindo(a) novamente, faça o login para acessar o site e configurar o seu ambiente.</p>
 
-            <form action="login.php" method="post">
+            <form action="login.php" method="post" autocomplete="on">
                
-                    <div id="container01"><label for="iemail"><span class="material-icons">person</span><input type="email" name="email" id="iemail" class="input" required placeholder="example@youremail.com"></label></div><br>
+                    <div id="container01"><label for="iemail"><span class="material-icons">person</span></label>
+
+                        <input type="email" name="email" id="iemail" class="input" required placeholder="example@youremail.com" autocomplete="email"></div><br>
                     
                 
                 
-                    <div id="container02"><label for="isenha"><span class="material-icons">key</span><input type="password" name="senha" id="isenha" class="input" required minlength="8" maxlength="20" placeholder="Senha"></label></div>
+                    <div id="container02"><label for="isenha"><span class="material-icons">key</span></label>
+                    <input type="password" name="senha" id="isenha" class="input" required minlength="8" maxlength="20" placeholder="Senha" autocomplete="current-password" >
+                    
+                    
+                    </div>
                     
                 
                 <p>
@@ -32,7 +39,7 @@
 
 
                 <p>
-                    <input type="reset" value="Esqueci minha senha" id=esqueci_buttom>
+                    <input type="reset" value= "Esqueci minha senha" id=esqueci_buttom>
                 </p>
 
                 

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    main#login{
+        
+        width: 80vw;
+        
+
+    }
+
+    main > section#background{
+
+        float: left;
+        width: 30%;
+        height: 100%;
+       
+        
+
+
+
+    }
+    main > section#form{
+
+        float: right;
+        width: 70%;
+        
+      
+       
+    }
+
+    section#form > p{
+        font-size: 1em;
+        text-align: justify;
+
+    }
+    .input{
+        width: 89%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    main#login{
+        width: 90vw;
+    }
+
+    main > section#background{
+
+        float: right;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    main > section#form{
+
+        float: left;
+        width: 50% ;
+    }   
+
+
+    section#form > p{ 
+
+        font-size: 1em;
+        margin-left: 20px;
+        
+    }
+
+    #entrar_buttom{
+        font-size: 1em;
+        height: 40px;
+    }
+    #esqueci_buttom{
+        
+        font-size: 1em;
+        height: 40px;
+    }
+    .input{
+        font-size: 1em;
+        height: 35px;
+        width: 90%;
+        position: relative;
+        top: 1.5px;
+       
+    }
+    #container01{
+        height: 40px;
+    }
+    #container02{
+        height: 40px;
+    }
+
+    .material-icons{
+        position: relative;
+        top: 8px;
+       
+    }
+
+}
